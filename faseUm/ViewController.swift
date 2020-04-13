@@ -32,7 +32,8 @@ class ViewController: UIViewController {
     @IBAction func clicaBotao(_ sender: Any) {
         
          ref.childByAutoId().setValue(["Nome": "\(nameText.text))", "Tipo": "\(tipoText.text)", "Ingredientes" : "\(ingredienteText.text)"])
-
+         ref.keepSynced(true)
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
