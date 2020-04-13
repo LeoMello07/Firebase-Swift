@@ -1,0 +1,6 @@
+framework module Pods_faseUm {
+  umbrella header "Pods-faseUm-umbrella.h"
+
+  export *
+  module * { export * }
+}
