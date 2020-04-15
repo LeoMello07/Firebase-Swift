@@ -9,23 +9,21 @@
 /* Begin PBXBuildFile section */
 		A22DF2CE15AADA21E0B8DF67 /* Pods_faseUm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D8D8FE1A3216DC953CF6BF /* Pods_faseUm.framework */; };
 		DD2E1AD1243CF4890035B939 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2E1AD0243CF4890035B939 /* GoogleService-Info.plist */; };
-		DD2E1AD9243F71620035B939 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2E1AD8243F71620035B939 /* libsqlite3.tbd */; };
-		DD2E1ADC243F71F80035B939 /* SQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2E1ADB243F71F80035B939 /* SQLite.m */; };
 		DD3EC84B241AADEE00EDE43C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EC84A241AADEE00EDE43C /* AppDelegate.swift */; };
 		DD3EC84D241AADEE00EDE43C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EC84C241AADEE00EDE43C /* SceneDelegate.swift */; };
 		DD3EC84F241AADEE00EDE43C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EC84E241AADEE00EDE43C /* ViewController.swift */; };
 		DD3EC852241AADEE00EDE43C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3EC850241AADEE00EDE43C /* Main.storyboard */; };
 		DD3EC855241AADEE00EDE43C /* faseUm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD3EC853241AADEE00EDE43C /* faseUm.xcdatamodeld */; };
 		DD3EC857241AAE0700EDE43C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3EC856241AAE0700EDE43C /* Assets.xcassets */; };
+		DD4BEC582445DE7F00F0ED64 /* Receita.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4BEC572445DE7F00F0ED64 /* Receita.swift */; };
+		DD4BEC5A2445EA5500F0ED64 /* ReceitaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4BEC592445EA5500F0ED64 /* ReceitaTableViewCell.swift */; };
+		DD4BEC602445FAFA00F0ED64 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4BEC5F2445FAFA00F0ED64 /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18D8D8FE1A3216DC953CF6BF /* Pods_faseUm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_faseUm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF2B15978900CCD3073763D /* Pods-faseUm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faseUm.release.xcconfig"; path = "Target Support Files/Pods-faseUm/Pods-faseUm.release.xcconfig"; sourceTree = "<group>"; };
 		DD2E1AD0243CF4890035B939 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DD2E1AD8243F71620035B939 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		DD2E1ADA243F71F80035B939 /* faseUm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "faseUm-Bridging-Header.h"; sourceTree = "<group>"; };
-		DD2E1ADB243F71F80035B939 /* SQLite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLite.m; sourceTree = "<group>"; };
 		DD3EC847241AADEE00EDE43C /* faseUm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faseUm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3EC84A241AADEE00EDE43C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD3EC84C241AADEE00EDE43C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +33,9 @@
 		DD3EC856241AAE0700EDE43C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD3EC859241AAE0700EDE43C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD3EC85B241AAE0700EDE43C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4BEC572445DE7F00F0ED64 /* Receita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receita.swift; sourceTree = "<group>"; };
+		DD4BEC592445EA5500F0ED64 /* ReceitaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaTableViewCell.swift; sourceTree = "<group>"; };
+		DD4BEC5F2445FAFA00F0ED64 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		E1CEF7217050F6ED0B2BBC27 /* Pods-faseUm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-faseUm.debug.xcconfig"; path = "Target Support Files/Pods-faseUm/Pods-faseUm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2E1AD9243F71620035B939 /* libsqlite3.tbd in Frameworks */,
 				A22DF2CE15AADA21E0B8DF67 /* Pods_faseUm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +54,6 @@
 		1DEDD80877F02A131EAC2909 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD2E1AD8243F71620035B939 /* libsqlite3.tbd */,
 				18D8D8FE1A3216DC953CF6BF /* Pods_faseUm.framework */,
 			);
 			name = Frameworks;
@@ -93,14 +92,15 @@
 				DD3EC84A241AADEE00EDE43C /* AppDelegate.swift */,
 				DD3EC84C241AADEE00EDE43C /* SceneDelegate.swift */,
 				DD3EC84E241AADEE00EDE43C /* ViewController.swift */,
+				DD4BEC5F2445FAFA00F0ED64 /* RecipeViewController.swift */,
+				DD4BEC592445EA5500F0ED64 /* ReceitaTableViewCell.swift */,
+				DD4BEC572445DE7F00F0ED64 /* Receita.swift */,
 				DD3EC850241AADEE00EDE43C /* Main.storyboard */,
 				DD3EC856241AAE0700EDE43C /* Assets.xcassets */,
 				DD3EC858241AAE0700EDE43C /* LaunchScreen.storyboard */,
 				DD3EC85B241AAE0700EDE43C /* Info.plist */,
 				DD2E1AD0243CF4890035B939 /* GoogleService-Info.plist */,
 				DD3EC853241AADEE00EDE43C /* faseUm.xcdatamodeld */,
-				DD2E1ADB243F71F80035B939 /* SQLite.m */,
-				DD2E1ADA243F71F80035B939 /* faseUm-Bridging-Header.h */,
 			);
 			path = faseUm;
 			sourceTree = "<group>";
@@ -221,10 +221,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2E1ADC243F71F80035B939 /* SQLite.m in Sources */,
 				DD3EC855241AADEE00EDE43C /* faseUm.xcdatamodeld in Sources */,
+				DD4BEC582445DE7F00F0ED64 /* Receita.swift in Sources */,
 				DD3EC84F241AADEE00EDE43C /* ViewController.swift in Sources */,
+				DD4BEC602445FAFA00F0ED64 /* RecipeViewController.swift in Sources */,
 				DD3EC84B241AADEE00EDE43C /* AppDelegate.swift in Sources */,
+				DD4BEC5A2445EA5500F0ED64 /* ReceitaTableViewCell.swift in Sources */,
 				DD3EC84D241AADEE00EDE43C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +382,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.companhiazaffari.faseUm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "faseUm/faseUm-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -402,7 +406,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.companhiazaffari.faseUm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "faseUm/faseUm-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -29,10 +29,11 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func clicaBotao(_ sender: Any) {
+    @IBAction func clicaBotao(_ sender:UIButton!) {
         
-         ref.childByAutoId().setValue(["Nome": "\(nameText.text))", "Tipo": "\(tipoText.text)", "Ingredientes" : "\(ingredienteText.text)"])
-         ref.keepSynced(true)
+        let receita = ["Nome" : nameText.text! as String, "Tipo" : tipoText.text! as String, "Ingredientes" : ingredienteText.text! as String]
+          ref.childByAutoId().setValue(receita)
+          ref.keepSynced(true)
         
     }
     
@@ -40,12 +41,6 @@ class ViewController: UIViewController {
         ingredienteText.resignFirstResponder()
     }
     
-    
-    
-    
-    
-    
-
 }
 
 extension ViewController : UITextFieldDelegate {
